@@ -1,0 +1,11 @@
+fastapi
+uvicorn[standard]
+python-dotenv
+pandas
+numpy
+sentence-transformers
+scikit-learn
+pillow
+requests
+pinecone
+tensorflow

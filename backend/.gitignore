@@ -1,6 +1,4 @@
 .env
 
-requirements.txt
-
 backend/app/
 *__pycache__
