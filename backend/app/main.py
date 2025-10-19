@@ -17,3 +17,7 @@ app.include_router(analytics_routes.router)
 @app.get("/")
 def root():
     return {"message": "🚀 IKARUS backend running (Text + CV + Analytics)"}
+
+if __name__ == "__main__":
+    import uvicorn
+    uvicorn.run(app, host="0.0.0.0", port=int(os.getenv("PORT", "8000")))
